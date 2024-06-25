@@ -1,0 +1,21 @@
+    1  # enlista documentos
+    2  ls
+    3  # imprime directorio actual
+    4  pwd
+    5  # crea una carpeta
+    6  mkdir Andrea
+    7  ls
+    8  cd OneDrive/Escritorio/ProyectoFinalBio/Secuencias/
+    9  ls
+   10  ./muscle5.1.win64.exe -align Bats_secuences.txt -output musscle_NectarBats.aln.fasta
+   11  ls
+   12  iqtree2 -s musscle_NectarBats.aln.fasta -B 1000
+   13  cd ..
+   14  cd ..
+   15  cd ProyectoFinalBio2/Secuencias/
+   16  ls
+   17  ./muscle5.1.win64.exe -align Bats_secuences.txt -output musscle_NectarBats.aln.fasta
+   18  ls
+   19  iqtree2 -s musscle_NectarBats.aln.fasta -B 1000
+   20  ls
+   21  history > Bats_phylogeny

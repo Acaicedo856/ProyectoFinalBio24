@@ -1,0 +1,327 @@
+IQ-TREE 2.2.0 COVID-edition built Jun  1 2022
+
+Input file name: musscle_NectarBats.aln.fasta
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 483608
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 38 sequences with 1173 nucleotide sites
+Number of constant sites: 592 (= 50.4689% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 592 (= 50.4689% of all sites)
+Number of parsimony informative sites: 511
+Number of distinct site patterns: 642
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: GTR+F+I+G4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+GTR+F+I+G4       -14684.697   29535.395 +   0.0728   29548.199 +    0.147   29955.982 +    0.992
+TIM2+F+I+G4      -14696.640   29555.280 -  3.5e-06   29567.456 - 9.65e-06   29965.733 -  0.00757
+GTR+F+I+I+R3     -14681.415   29534.830 +   0.0966   29548.609 +    0.119   29970.619 - 0.000658
+GTR+F+I+I+R4     -14677.264   29530.527 +    0.831   29544.978 +    0.734   29976.452 - 3.56e-05
+TIM+F+I+G4       -14748.330   29658.661 - 1.25e-28   29670.837 - 3.43e-28   30069.114 - 2.69e-25
+GTR+F+R8         -14708.553   29607.106 - 1.95e-17   29624.042 - 4.98e-18   30088.501 - 1.66e-29
+GTR+F+R9         -14703.171   29600.341 - 5.75e-16   29618.027 - 1.01e-16   30091.871 - 3.08e-30
+GTR+F+R7         -14718.082   29622.164 - 1.05e-20   29638.367 - 3.86e-21   30093.424 - 1.42e-30
+GTR+F+I+I+R2     -14754.798   29677.596 - 9.64e-33   29690.721 - 1.65e-32   30103.250 - 1.04e-32
+GTR+F+R6         -14735.562   29653.124 - 1.98e-27   29668.614 - 1.04e-27   30114.251 - 4.26e-35
+TN+F+I+G4        -14774.676   29709.351 - 1.23e-39   29721.219 - 3.94e-39   30114.737 - 3.34e-35
+TIM3+F+I+G4      -14772.216   29706.433 - 5.27e-39   29718.609 - 1.45e-38   30116.885 - 1.14e-35
+SYM+I+G4         -14785.765   29731.531 - 1.87e-44   29743.399 - 6.01e-44   30136.916 - 5.09e-40
+TVM+F+I+G4       -14784.590   29733.180 -  8.2e-45   29745.668 - 1.93e-44   30148.700 - 1.41e-42
+TIM2e+I+G4       -14803.051   29762.101 -  4.3e-51   29773.367 - 1.87e-50   30157.352 - 1.86e-44
+TPM2u+F+I+G4     -14800.766   29761.533 - 5.72e-51   29773.401 - 1.84e-50   30166.919 - 1.56e-46
+GTR+F+G4         -14794.101   29752.202 - 6.07e-49   29764.691 - 1.43e-48   30167.723 - 1.04e-46
+GTR+F+R5         -14769.955   29717.909 -  1.7e-41   29732.702 - 1.26e-41   30168.901 - 5.78e-47
+K3Pu+F+I+G4      -14839.255   29838.510 -  1.1e-67   29850.378 - 3.54e-67   30243.896 -    3e-63
+GTR+F+R4         -14821.602   29817.205 - 4.66e-63   29831.317 - 4.87e-63   30258.061 - 2.52e-66
+TPM3u+F+I+G4     -14866.859   29893.719 - 1.13e-79   29905.587 - 3.63e-79   30299.104 - 3.08e-75
+HKY+F+I+G4       -14870.753   29899.507 - 6.26e-81   29911.071 - 2.34e-80   30299.825 - 2.15e-75
+GTR+F+R3         -14924.814   30019.629 - 5.16e-107   30033.079 - 7.51e-107   30450.351 - 4.42e-108
+TIMe+I+G4        -14964.524   30085.048 - 3.21e-121   30096.313 - 1.4e-120   30480.299 - 1.39e-114
+TNe+I+G4         -15032.075   30218.149 - 4.02e-150   30229.119 - 2.02e-149   30608.333 - 2.19e-142
+TIM3e+I+G4       -15030.621   30217.242 - 6.33e-150   30228.507 - 2.75e-149   30612.493 - 2.74e-143
+TVMe+I+G4        -15098.881   30355.761 - 5.27e-180   30367.326 - 1.97e-179   30756.079 - 1.81e-174
+TPM2+I+G4        -15111.804   30377.608 - 9.51e-185   30388.578 - 4.79e-184   30767.792 - 5.18e-177
+GTR+F+R2         -15113.116   30392.232 - 6.35e-188   30405.037 - 1.28e-187   30812.820 - 8.64e-187
+GTR+F+I          -15155.067   30474.134 - 1.04e-205   30486.622 - 2.46e-205   30889.654 - 1.79e-203
+K3P+I+G4         -15304.907   30763.813 - 1.3e-268   30774.783 - 6.56e-268   31153.997 - 7.09e-261
+K2P+I+G4         -15388.528   30929.056 - 1.71e-304   30939.735 - 9.95e-304   31314.173 - 1.17e-295
+TPM3+I+G4        -15385.745   30925.489 - 1.02e-303   30936.459 - 5.12e-303   31315.673 - 5.54e-296
+F81+F+I+G4       -15926.784   32009.568 -        0   32020.833 -        0   32404.819 -        0
+JC+I+G4          -16362.493   32874.985 -        0   32885.377 -        0   33255.034 -        0
+GTR+F            -17122.325   34406.650 -        0   34418.826 -        0   34817.103 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F+I+G4
+
+Rate parameter R:
+
+  A-C: 4.2771
+  A-G: 8.5322
+  A-T: 1.7688
+  C-G: 0.2859
+  C-T: 29.4930
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.287
+  pi(C) = 0.2926
+  pi(G) = 0.1378
+  pi(T) = 0.2826
+
+Rate matrix Q:
+
+  A   -0.4396    0.1879    0.1766   0.07508
+  C    0.1844    -1.442  0.005917     1.252
+  G    0.3678   0.01256   -0.4228   0.04245
+  T   0.07624     1.296   0.02069    -1.393
+
+Model of rate heterogeneity: Invar+Gamma with 4 categories
+Proportion of invariable sites: 0.4419
+Gamma shape alpha: 0.8575
+
+ Category  Relative_rate  Proportion
+  0         0              0.4419
+  1         0.193          0.1395
+  2         0.7692         0.1395
+  3         1.741          0.1395
+  4         4.464          0.1395
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -14673.0006 (s.e. 433.8089)
+Unconstrained log-likelihood (without tree): -6592.8735
+Number of free parameters (#branches + #model parameters): 83
+Akaike information criterion (AIC) score: 29512.0013
+Corrected Akaike information criterion (AICc) score: 29524.8057
+Bayesian information criterion (BIC) score: 29932.5888
+
+Total tree length (sum of branch lengths): 8.4124
+Sum of internal branch lengths: 1.7725 (21.0701% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Saustralis' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++---------Saustralis
+|
+|                               +-------------Gdaviesi
+|                            +--| (70)
+|                            |  +---------Cbrevicauda
+|                         +--| (46)
+|                         |  |              +--------Pgenovensium
+|                         |  |           +--| (83)
+|                         |  |           |  +---------Xvieirai
+|                         |  |        +--| (100)
+|                         |  |        |  |           +-----Hcadenai
+|                         |  |        |  |        +--| (95)
+|                         |  |        |  |        |  |  +--Hpattoni
+|                         |  |        |  |        |  +--| (100)
+|                         |  |        |  |        |     +--Hthomasi
+|                         |  |        |  |  +-----| (100)
+|                         |  |        |  |  |     +----Hdashe
+|                         |  |        |  +--| (86)
+|                         |  |        |     |  +-------Lrobusta
+|                         |  |        |     +--| (94)
+|                         |  |        |        |         +--Lhesperia
+|                         |  |        |        |  +------| (100)
+|                         |  |        |        |  |      +--Lconcava
+|                         |  |        |        +--| (73)
+|                         |  |        |           +----------Lspurrelli
+|                         |  |     +--| (31)
+|                         |  |     |  |                +**Lcurasoae
+|                         |  |     |  |         +------| (100)
+|                         |  |     |  |         |      +--Lyerbabuenae
+|                         |  |     |  |     +---| (100)
+|                         |  |     |  |     |   +-----Lnivalis
+|                         |  |     |  |  +--| (78)
+|                         |  |     |  |  |  |       +-----Glongirostris
+|                         |  |     |  |  |  +-------| (100)
+|                         |  |     |  |  |          +-----Gsoricina
+|                         |  |     |  +--| (30)
+|                         |  |     |     |  +----------Ageoffroyi
+|                         |  |     |     +--| (30)
+|                         |  |     |        +---------Bcavernarum
+|                         |  |  +--| (46)
+|                         |  |  |  |         +-------Lbrasiliense_isolate
+|                         |  |  |  |     +---| (99)
+|                         |  |  |  |     |   +-----Phastatus
+|                         |  |  |  |  +--| (76)
+|                         |  |  |  |  |  +---------------Vspectrum
+|                         |  |  |  +--| (76)
+|                         |  |  |     +----------------Laurita
+|                         |  +--| (28)
+|                         |     +-------------Alituratus
+|                      +--| (38)
+|                      |  |      +-----------------------------Nalbiventris
+|                      |  +------| (63)
+|                      |         +-----------Rpumilio
+|                   +--| (26)
+|                   |  +-----------------Mcalifornicus
+|                +--| (28)
+|                |  +--------Mmegalotis
+|            +---| (63)
+|            |   +---------------------Drotundus
+|        +---| (96)
+|        |   |                                    +**Mtuberculata
+|        |   +------------------------------------| (100)
+|        |                                        +**Mtuberculata_
+|     +--| (92)
+|     |  +------------------------Mnigricans
+|  +--| (90)
+|  |  +-------------------------------------Saraneus
++--| (94)
+|  |     +-------Mmelanops
+|  +-----| (100)
+|        +----------Mfardoulisi
+|
+|          +--Mminimus
++----------| (100)
+           +----Msobrinus
+
+Tree in newick format:
+
+(Saustralis:0.1608500567,((((((((((Gdaviesi:0.2234625134,Cbrevicauda:0.1706915703)70:0.0203460233,(((((Pgenovensium:0.1503561541,Xvieirai:0.1676155897)83:0.0222431649,(((Hcadenai:0.0991516650,(Hpattoni:0.0443693607,Hthomasi:0.0349713178)100:0.0363530657)95:0.0439764684,Hdashe:0.0808412739)100:0.0978777018,(Lrobusta:0.1393907949,((Lhesperia:0.0395997290,Lconcava:0.0231190139)100:0.1134779797,Lspurrelli:0.1792413093)73:0.0303553563)94:0.0288857488)86:0.0095799435)100:0.0589468373,((((Lcurasoae:0.0000022574,Lyerbabuenae:0.0069289840)100:0.1166322210,Lnivalis:0.1085751123)100:0.0762987362,(Glongirostris:0.1043605076,Gsoricina:0.0985629857)100:0.1294440729)78:0.0491141538,(Ageoffroyi:0.1736868229,Bcavernarum:0.1691686982)30:0.0189810429)30:0.0182144648)31:0.0165626134,(((Lbrasiliense_isolate:0.1267206142,Phastatus:0.1064590340)99:0.0695932628,Vspectrum:0.2505288310)76:0.0125843933,Laurita:0.2775759048)76:0.0325486688)46:0.0087989859,Alituratus:0.2286007463)28:0.0094542852)46:0.0136000972,(Nalbiventris:0.4712134659,Rpumilio:0.1947100390)63:0.1222389339)38:0.0243474880,Mcalifornicus:0.2872706518)26:0.0229289070,Mmegalotis:0.1474077929)28:0.0021133339,Drotundus:0.3508746495)63:0.0673239819,(Mtuberculata:0.0000010001,Mtuberculata_:0.0000010001)100:0.5847142145)96:0.0673026186,Mnigricans:0.3985939972)92:0.0551498743,Saraneus:0.6067823085)90:0.0535268506,(Mmelanops:0.1374642285,Mfardoulisi:0.1860796675)100:0.0945466391)94:0.0531596585,(Mminimus:0.0307932069,Msobrinus:0.0791564734)100:0.1759905145);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -14673.483691
+Robinson-Foulds distance between ML tree and consensus tree: 8
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++---------Saustralis
+|
+|                                 +-------------Gdaviesi
+|                              +--| (70)
+|                              |  +---------Cbrevicauda
+|                           +--| (40)
+|                           |  +-------------Alituratus
+|                        +--| (46)
+|                        |  |              +--------Pgenovensium
+|                        |  |           +--| (83)
+|                        |  |           |  +---------Xvieirai
+|                        |  |        +--| (100)
+|                        |  |        |  |           +-----Hcadenai
+|                        |  |        |  |        +--| (95)
+|                        |  |        |  |        |  |  +--Hpattoni
+|                        |  |        |  |        |  +--| (100)
+|                        |  |        |  |        |     +--Hthomasi
+|                        |  |        |  |  +-----| (100)
+|                        |  |        |  |  |     +----Hdashe
+|                        |  |        |  +--| (86)
+|                        |  |        |     |  +--------Lrobusta
+|                        |  |        |     +--| (94)
+|                        |  |        |        |         +--Lhesperia
+|                        |  |        |        |  +------| (100)
+|                        |  |        |        |  |      +--Lconcava
+|                        |  |        |        +--| (73)
+|                        |  |        |           +----------Lspurrelli
+|                        |  |     +--| (36)
+|                        |  |     |  +----------Bcavernarum
+|                        |  |  +--| (36)
+|                        |  |  |  |            +-------Lbrasiliense_isolate
+|                        |  |  |  |        +---| (99)
+|                        |  |  |  |        |   +-----Phastatus
+|                        |  |  |  |     +--| (76)
+|                        |  |  |  |     |  +---------------Vspectrum
+|                        |  |  |  |  +--| (76)
+|                        |  |  |  |  |  +-----------------Laurita
+|                        |  |  |  +--| (43)
+|                        |  |  |     +----------Ageoffroyi
+|                        |  +--| (46)
+|                        |     |             +--Lcurasoae
+|                        |     |      +------| (100)
+|                        |     |      |      +--Lyerbabuenae
+|                        |     |  +---| (100)
+|                        |     |  |   +-----Lnivalis
+|                        |     +--| (78)
+|                        |        |       +------Glongirostris
+|                        |        +-------| (100)
+|                        |                +-----Gsoricina
+|                     +--| (38)
+|                     |  |      +-----------------------------Nalbiventris
+|                     |  +------| (63)
+|                     |         +-----------Rpumilio
+|                  +--| (26)
+|                  |  +------------------Mcalifornicus
+|               +--| (28)
+|               |  +--------Mmegalotis
+|            +--| (63)
+|            |  +----------------------Drotundus
+|        +---| (96)
+|        |   |                                     +--Mtuberculata
+|        |   +-------------------------------------| (100)
+|        |                                         +--Mtuberculata_
+|     +--| (92)
+|     |  +-------------------------Mnigricans
+|  +--| (90)
+|  |  +---------------------------------------Saraneus
++--| (94)
+|  |     +--------Mmelanops
+|  +-----| (100)
+|        +-----------Mfardoulisi
+|
+|          +--Mminimus
++----------| (100)
+           +----Msobrinus
+
+
+Consensus tree in newick format: 
+
+(Saustralis:0.1606913778,(((((((((((Gdaviesi:0.2257059001,Cbrevicauda:0.1668255294)70:0.0144109025,Alituratus:0.2218282017)40:0.0245529364,(((((Pgenovensium:0.1520862714,Xvieirai:0.1685715254)83:0.0234543808,(((Hcadenai:0.1003161331,(Hpattoni:0.0443089077,Hthomasi:0.0355216370)100:0.0358866916)95:0.0437739641,Hdashe:0.0824850620)100:0.0960870277,(Lrobusta:0.1420660004,((Lhesperia:0.0398970235,Lconcava:0.0231019859)100:0.1157616083,Lspurrelli:0.1776070115)73:0.0293985108)94:0.0303577665)86:0.0100200211)100:0.0611789482,Bcavernarum:0.1840280609)36:0.0114755180,((((Lbrasiliense_isolate:0.1290639282,Phastatus:0.1037356084)99:0.0689770776,Vspectrum:0.2462049688)76:0.0129189911,Laurita:0.2868486556)76:0.0186665780,Ageoffroyi:0.1743945215)43:0.0233332594)36:0.0109713536,(((Lcurasoae:0.0000025538,Lyerbabuenae:0.0069658672)100:0.1189813286,Lnivalis:0.1070383310)100:0.0760807388,(Glongirostris:0.1079360880,Gsoricina:0.0942647525)100:0.1382591533)78:0.0516012840)46:0.0159846346)46:0.0135675569,(Nalbiventris:0.4685303975,Rpumilio:0.1984895041)63:0.1139605210)38:0.0268534742,Mcalifornicus:0.3011777917)26:0.0206212243,Mmegalotis:0.1507636204)28:0.0008091265,Drotundus:0.3537939625)63:0.0602101685,(Mtuberculata:0.0000026652,Mtuberculata_:0.0000026652)100:0.5916265341)96:0.0712801611,Mnigricans:0.4008613946)92:0.0538044226,Saraneus:0.6164381694)90:0.0525910952,(Mmelanops:0.1384599264,Mfardoulisi:0.1866067750)100:0.0943723191)94:0.0541654732,(Mminimus:0.0310328696,Msobrinus:0.0794538493)100:0.1774274375);
+
+TIME STAMP
+----------
+
+Date and time: Tue Jun 25 10:54:39 2024
+Total CPU time used: 18.421875 seconds (0h:0m:18s)
+Total wall-clock time used: 20.8554151 seconds (0h:0m:20s)
+

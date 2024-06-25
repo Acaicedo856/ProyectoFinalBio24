@@ -1,0 +1,83 @@
+    1  # enlista documentos
+    2  ls
+    3  # imprime directorio actual
+    4  pwd
+    5  # crea una carpeta
+    6  mkdir Andrea
+    7  cd
+    8  d OneDrive/Escritorio/
+    9  cd OneDrive/Escritorio/
+   10  #git clone git
+   11  git clone git@github.com:pdaguirre/planets.git ./DomeAg
+   12  git clone git@github.com:pdaguirre/planets.git ./DomeAg
+   13  mkdir ProyectoFinalBio24
+   14  cd ProyectoFinalBio24/
+   15  git init .
+   16  nano README.md #md es markdown
+   17  mkdir Results/
+   18  mkdir Scripts/
+   19  mkdir Data/
+   20  ls
+   21  nano README.md
+   22  cd Data/
+   23  nano scripts_data.txt
+   24  cd ..
+   25  ls
+   26  cd Results/
+   27  nano results_readme.txt
+   28  cd ..
+   29  ls
+   30  cd Scripts/
+   31  nano scripts_readme.txt
+   32  cd ..
+   33  ls -F
+   34  mkdir -p Results/result_readme.txt Scripts/scripts_readme.txt Data/data_readme.txt
+   35  ls
+   36  cd Data/
+   37  ls
+   38  rm -rf data_readme.txt/
+   39  touch data_readme.txt
+   40  ls
+   41  cd ..
+   42  cd Results/
+   43  rm -rf result_readme.txt/
+   44  touch results_readme.txt
+   45  ls
+   46  cd ..
+   47  cd Scripts/
+   48  LS
+   49  ls
+   50  rm -rf scripts_readme.txt/
+   51  touch scripts_readme.txt
+   52  ls
+   53  cd ..
+   54  touch README.md
+   55  ls
+   56  ls -F */
+   57  echo "Hola mundo" > Data/data_readme.txt 
+   58  echo "Hola mundo" > Results/results_readme.txt 
+   59  echo "Hola mundo" > Scripts/scripts_readme.txt 
+   60  cat Results/results_readme.txt 
+   61  echo "Iniciando Proyecto " >> Data/data_readme.txt 
+   62  cat Data/data_readme.txt 
+   63  git status 
+   64  git add Data/
+   65  git add README.md 
+   66  git add Results/
+   67  git add Scripts/
+   68  git status
+   69  git commit -m "Subcarpetas Proyecto Final"
+   70  git status
+   71  git diff HEAD
+   72  pwd
+   73  #Como subir al github
+   74  git remote add origin git@github.com:Acaicedo856/ProyectoFinalBio24.git
+   75  git remote -v
+   76  ls -al ¬¬¬¬
+   77  ls -al ~/ .ssh
+   78  ssh-keygen -t ed25519 -C "acaicedo856@puce.edu.ec"
+   79  git status
+   80  ls
+   81  git push origin main
+   82  # el git push origin main es para subir todo en el git hub despues de haber guardado todos los cambios de git
+   83  history > Github_ProyectoFinal
